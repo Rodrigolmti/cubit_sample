@@ -1,0 +1,26 @@
+name: arch_sample
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_mobx: ^1.1.0
+  injectable: ^1.0.4
+  get_it: ^4.0.0
+  cubit:
+    path: cubit
+  
+
+dev_dependencies:
+  auto_route_generator: ^0.6.8
+  injectable_generator: ^1.0.4
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
